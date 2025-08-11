@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Diseño en la Universidad de Chile — 101</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+        <style>
+            body {
+                font-family: "Space Grotesk", sans-serif;
+                font-weight: 400;
+                background: rgb(44, 62, 86);
+                color: rgba(255, 255, 255, 0.7);
+            }
+            .container {
+                width: min(90vw, 900px) !important;
+            }
+
+            .container-fluid {
+                width: min(95vw, 1200px) !important;
+            }
+
+            a{
+               color: rgba(255, 255, 255, 0.9);
+               text-decoration: none;
+            }
+
+            a:hover{
+               color: rgba(255, 255, 255, 1);
+               text-decoration: underline;
+            }
+
+            h1 {
+                color: rgba(255, 255, 255, 0.5);
+                font-size: calc(2rem + 7vw);
+                line-height: 1;
+                font-weight: 400;
+            }
+            h1 > em {
+                color: rgba(255, 255, 255, 0.75);
+                font-family: "Times New Roman", Times, serif;
+                font-weight: 500;
+                font-style: italic;
+                font-size: 108%;
+            }
+
+            h1 > small {
+                font-size: 80%;
+                font-weight: 500;
+                letter-spacing: 0.5rem;
+            }
+
+
+            h2{
+                color: rgba(255, 255, 255, 0.9);
+            }
+
+            em {
+                font-weight: 500;
+                font-style: normal;
+            }
+
+            blockquote em {
+                text-shadow: 0 0 3px black;
+                font-weight: 700;
+                letter-spacing: 0.05rem;
+                color: rgba(255, 255, 255, 0.75);
+            }
+
+            blockquote > cite {
+                display: block;
+                text-align: right;
+                font-style: normal;
+                font-size:90%;
+                letter-spacing: 0.1rem;                
+            }
+
+            blockquote > cite:before {
+                content: "— ";
+            }
+
+            blockquote > cite a{
+                color:rgba(255,255,255,0.5); 
+                text-decoration: none;               
+                transition: all ease .5s;
+            }
+
+            blockquote > cite a:hover{
+                color:rgba(255,255,255,0.9); 
+                text-decoration: none;               
+                transition: all ease 1s;
+            }
+
+
+            figure {
+                position: relative;
+            }
+
+            figure img {
+                opacity: 0.7;
+                transition: all ease 1s;
+            }
+
+            figure:hover img {
+                opacity: 1;
+                transition: all ease .5s;
+            }
+
+            figure figcaption {
+                color:hsl(224, 27%, 23%);
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: auto;
+                z-index: 99999;
+                line-height: 1.8;
+            }
+
+            figure figcaption span,
+            figure figcaption a {
+                color:hsl(224, 27%, 23%);
+                background: rgba(255, 255, 255, 0.75);
+                padding: 0.25rem;
+            }
+
+            figure figcaption span{
+                font-family: "Times New Roman", Times, serif;
+                font-weight: 800;
+                font-style: italic;
+            }
+
+            li em{
+                font-family: "Times New Roman", Times, serif;
+                font-weight: 400;
+                font-style: italic;
+                font-size:110%;
+            }
+
+            table{
+                border-collapse: collapse;
+                width:100%;
+                margin-bottom: 2rem;
+            }
+            table tr{
+                border-bottom:1px solid rgba(255,255,255,.5);
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <header class="col-12 me-auto my-5">
+                    <h1>Diseño en la <em>Universidad de Chile</em> — <small>101</small></h1>
+                </header>
+
+                <section class="col-11 me-auto">
+                    <p>Es importante saber lo que sigue.</p>
+                </section>
+
+                <main class="col-11 ms-auto mt-3">
+                    <blockquote class="mb-5">
+                        <p>
+                            <em>La Universidad asume con vocación de excelencia la formación de personas y la contribución al desarrollo espiritual y material de la Nación</em>.
+                            <em>Cumple su misión a través de las funciones de docencia, investigación y creación</em> en las ciencias y las tecnologías, las humanidades y las artes, <em>y de extensión del conocimiento y la cultura</em> en
+                            toda su amplitud. Procura ejercer estas funciones <em>con el más alto nivel de exigencia</em>.
+                        </p>
+                        <cite><a href="https://uchile.cl/u39635">Misión de la Universidad de Chile</a></cite>
+                    </blockquote>
+
+                    <blockquote class="mb-5">
+                        <p><em>Es deber de los/las estudiantes asumir la responsabilidad principal de su propia formación</em>, con el apoyo y supervisión de sus profesores/as y la interacción con sus pares.</p>
+                        <cite><a href="https://uchile.cl/u67177">Reglamento de Estudiantes de la Universidad de Chile</a></cite>
+                    </blockquote>
+
+                    <blockquote class="mb-5">
+                        <p>
+                            A cada estudiante que asuma tal resposabilidad, se le conducirá al <em>grado académico de Licenciada/o en Diseño</em> y el <em>título profesional de Diseñador/a, Diseñador/a con mención en Visualidad y Medios, o Diseñador/a con mención Industrial y Servicios</em>.
+                        </p>
+                        <cite><a href="https://uchile.cl/t4929">Carreras de Pregrado en la FAU</a></cite>
+                    </blockquote>
+
+                    <blockquote class="mb-5">
+                        <p>
+                            Los estudios conducentes al <em>grado de licenciada/o son aquellos que desarrollan en el estudiante una profunda capacidad de reflexión y análisis</em>, a la vez que le proporcionan el conocimiento que le
+                            permiten desempeñarse en aspectos específicos de una especialidad.
+                        </p>
+                        <p>
+                            Los estudios conducentes a un <em>título profesional universitario son aquéllos que proporcionan el dominio integral de una especialidad</em>, ya sea ésta del campo de las humanidades, de las artes, de las
+                            ciencias o de la tecnología; como también las competencias necesarias para desempeñarse en un campo profesional.
+                        </p>
+
+                        <cite><a href="https://uchile.cl/u51769">Reglamento General de los Estudios Universitarios de Pregrado</a></cite>
+                    </blockquote>
+
+                    <blockquote class="mb-5">
+                        <p>
+                            El perfil de egreso del (de la) <em>Diseñador(a) de la Universidad de Chile</em>, en cuanto a su saber fundamental, se trata de un(a) profesional <em>formado(a) para conceptualizar, proyectar y producir</em> creativa y reflexivamente los <em>objetos, signos y fenómenos del entorno humano artificial y natural</em> a través de procesos significativos de creación morfológica de mediación, que generen valor social y económico y
+                            ambiental, <em>para y desde las ciudadanías, las comunidades y las personas</em>.
+                        </p>
+
+                        <p>DE LOS ÁMBITOS DE DESEMPEÑO:</p>
+
+                        <p>El (la) Diseñadr(a) de la Universidad de Chile está habilitado(a) para:</p>
+
+                        <p>
+                            <em>I. Evaluar</em> la interacción del ser humano con su entorno físico y cultural, desde la empatía y el trabajo colaborativo con otros agentes, con el fin de detectar necesidades y oportunidades de actuación
+                            profesional, las que pueden tomar formar de diagnóstico, monitoreo de procesos y evaluación de impactos de su quehacer.
+                        </p>
+
+                        <p>
+                            <em>II. Crear</em> propuestas morfológicas innovadoras, estados de significación y valor, para formas, códigos, lenguajes y fenómenos comunicacionales y relacionales, entre las ciudadanías y el entorno
+                            artificial, las comunidades, las personas y sus contextos.
+                        </p>
+
+                        <p><em>III. Gestionar</em> sistemas productivos y talentos propios y de otros, articulando procesos, recursos y agentes relacionados con la industria, las organizaciones sociales y la gobernabilidad.</p>
+
+                        <p>
+                            <em>IV. Sistematizar</em> experiencias de la disciplina o profesión, produciendo, representando, transfiriendo y preservando conocimientos y vinculándolas con otros saberes, para identificar necesidades y generar
+                            soluciones de diseño.
+                        </p>
+
+                        <cite><a href="https://fau.uchile.cl/dam/jcr:3f7b4e53-cea0-48fe-9f31-8e1991e21d29/Dise%EF%BF%BDo_v4.pdf">Reglamento de carrera</a></cite>
+                    </blockquote>
+
+                    <blockquote class="mb-5">
+                        <p>Cada asignatura debe aportar a determinados ámbitos de desempeño, siempre respetando la carga académica que le correspondan por sus créditos SCT.</p>
+
+                        <p>
+                            <em>La Universidad define</em> que la carga académica del plan de formación debe ser de 60 créditos SCT anuales, distribuida en semestres académicos de 18 semanas, y
+                            <em>que 1 (un) crédito SCT representa 27 horas cronológicas</em>. Se estima que cada estudiante debe tener una dedicación máxima de 45 horas de trabajo académico semanal para el logro de sus aprendizajes.
+                        </p>
+                        <cite><a href="https://libros.uchile.cl/index.php/sisib/catalog/book/1431">Modelo Educativo de la Universidad de Chile</a></cite>
+                    </blockquote>
+                </main>
+
+                <section class="col-12 me-auto">
+                    <h2>El plantel académico</h2>
+                    <p>
+                        A continuación se presenta parte de quienes apoyarán y supervisarán la formación de cada estudiante en las distintas asignaturas del Plan de Formación. Lo harán con <em>una jerarquía que certifica el reconocimiento de la Universidad respecto de su idoneidad para desempeñarse en distintas funciones académicas</em> (ver
+                        <a href="https://uchile.cl/presentacion/senado-universitario/reglamentos/reglamentos-aprobados-o-modificados-por-el-senado-universitario/reglamento-general-de-carrera-academica-de-la-universidad-de-chile" class="link-light" target="_blank">
+                            Reglamento General de Carrera Académica de la Universidad de Chile
+                        </a>
+                        )
+                    </p>
+                </section>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-3 g-lg-4 my-2" id="fichas"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 my-3">
+                    <p>Entre nuestro plantel académico, corresponde reconocer algunas autoridades de la <a href="https://fau.uchile.cl/" target="_blank" class="link-light">Facultad de Arquitectura y Urbanismo</a> de la Universidad de Chile:</p>
+
+                    <ul>
+                        <li>Prof. Magdalena Cattan Lavín — <em>Subdirectora de la Escuela de Pregrado</em></li>
+                        <li>Prof. Felipe Cortez Orellana — Jefe de la Carrera de Diseño</li>
+                        <li>Prof. Pablo Domínguez González — Secretario de Estudios</li>
+                        <li>Prof. Sergio Donoso Cisternas — Director del Departamento de Diseño</li>
+                        <li>Prof. Cristián Gómez Moya — Director de Investigación y Creación</li>
+                        <li>Prof. Lorna Lares López — Directora de Asuntos Estudiantiles</li>
+                        <li>Prof. Rodrigo Vera Manríquez — Director del Instituto de Historia y Patrimonio</li>
+                    </ul>
+
+                    <p>Y debe sumarse al plantel académico ya referido, con adscripción a la Escuela de Pregrado Unificada o el Departamento de Diseño, a quienes colaboran al plan de formación desde otras adscripciones:</p>
+                    <ul>
+                        <li><a href="https://portafolio-academico.uchile.cl/perfil/21670-Camilo-Ramon-Arriagada-Luco" target="_blank">Prof. Camilo Arriagada Luco</a> — <em>Profesor Asociado</em>, adscrito al Departamento de Urbanismo</li>
+                        <li><a href="https://portafolio-academico.uchile.cl/perfil/42236-Carlos-Gregorio-de-Jesus-Lange-Valdes" target="_blank">Prof. Carlos Lange Valdés</a> — <em>Prof. Asistente</em>, adscrito al Instituto de la Vivienda</li>
+                        <li><a href="https://portafolio-academico.uchile.cl/perfil/43537-Rebeca-Jazmin-Millaray-Silva-Roquefort" target="_blank">Prof. Rebeca Silva Roquefort</a> — <em>Prof. Asistente</em>, adscrita al Instituto de la Vivienda</li>
+
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2>Invitados e invitadas en calidad docente</h2>
+            <p>
+                Colaborando con la función docente, se invita en cada semestre a un grupo de expertos(as) externos(as), y se les confía el apoyo y supervición de la formación de cada estudiante. Estos(as) expertos(as) son, a su vez, supervisados(as)
+                por académicos(as) que tutelan cada asignatura.
+            </p>
+            <p>Para el segundo semestre de 2025, los(as) expertos(as) son:</p>
+
+            <table>
+                <thead><tr><th>Nombre</th><th class="text-center">LinkedIn</th><th class="text-center">Web personal</th></tr></thead>
+                <tbody id="tabla"></tbody>
+            </table>
+
+            <small>* Están en proceso para ingresar al plantel académico en jerarquía de Profesor(a)</small>
+
+        </div>
+
+        <footer class="container my-5">
+            
+<p class="small d-flex justify-content-between align-items-center">
+                            <span>
+                                <span class="d-none d-lg-inline">Desarrollado por </span>
+                                <a href="https://faco.cl/" target="_blank" title="Felipe Alberto Cortez Orellana">FACO</a>
+                            </span>
+                            <span>
+                                <a href="mailto:jefediseno@uchilefau.cl">jefediseno@uchilefau.cl</a>
+                            </span>
+                        </p>
+
+        </footer>
+
+        <script>
+            const fichas = document.querySelector("#fichas");
+
+            const tabla = document.querySelector("#tabla");
+
+            async function datos() {
+                const consulta = await fetch("https://api.myjson.online/v1/records/6a17f890-1a65-45e6-8c26-10ce18c28ca5");
+                const data = await consulta.json();
+                const plantel = data.data.profes;
+                console.log(plantel);
+
+                var profes = [];
+
+                plantel.forEach((x) => {
+                    if (x.nivel.includes("Profes")) {
+                        if(!x.nombre.includes("Rebeca")){
+                        profes.push(x);
+                        }
+                    }
+                });
+
+                profes.forEach((x) => {
+                    fichas.innerHTML += `<div class="col"><figure><img src="${x.foto}" class="w-100 shadow-sm"><figcaption><a href="${x.info.perfil}" target="_blank" class="link-dark fw-bold">${x.nombre}</a><br><span>${x.nivel}</span></figcaption></figure></div>`;
+                });
+
+                console.log(profes);
+            }
+
+            datos().catch((error) => console.error(error));
+
+            async function masDatos() {
+                const consulta = await fetch("https://raw.githubusercontent.com/disenouchile/101/refs/heads/main/externos.json");
+                const docentes = await consulta.json();
+                console.log(docentes);
+
+                docentes.forEach((x) => {
+                    tabla.innerHTML += `<tr><td>${x.nombre}</td><td class="text-center">${linkedIn(x.linkedin)}</td><td class="text-center">${linkedWeb(x.web)}</td></tr>`;
+                });
+
+                console.log(docentes);
+            }
+
+            masDatos().catch((error) => console.error(error));
+
+            function linkedIn(x){
+                if(x !== ""){
+                    return `<a href="${x}" target="_blank">▧</a>`;
+                } else {
+                    return "";
+                }
+            }
+
+
+            function linkedWeb(x){
+                if(x !== ""){
+                    return `<a href="${x}" target="_blank">▧</a>`;
+                } else {
+                    return "";
+                }
+            }
+
+        </script>
+
+    </body>
+</html>
