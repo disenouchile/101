@@ -344,8 +344,10 @@
             datos().catch((error) => console.error(error));
 
             async function masDatos() {
-                const consulta = await fetch("https://raw.githubusercontent.com/disenouchile/101/refs/heads/main/externos.json");
-                const docentes = await consulta.json();
+                const otraConsulta = await fetch("https://api.myjson.online/v1/records/d9cd133a-b4c2-435f-afc3-aadff32c1bbb");
+                const otraData = await otraConsulta.json();
+                const docentes = otraData.data;
+
                 console.log(docentes);
 
                 docentes.forEach((x) => {
