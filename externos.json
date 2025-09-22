@@ -1,5 +1,4 @@
 [
-    { "nombre": "Carlos Ampuero Carrión", "alfabetico": "Ampuero Carrión", "linkedin": "https://www.linkedin.com/in/carlos-ampuero-74b461b6/", "web": "https://www.carlosampuero.com/", "academico": "" },
     { "nombre": "Sebastián Aravena Ortiz", "alfabetico": "Aravena Ortiz", "linkedin": "https://www.linkedin.com/in/sebaaravena/", "web": "http://www.sebaaravena.cl/", "academico": "https://orcid.org/0000-0002-4974-9069" },
     { "nombre": "Patricio Araya Beltran*", "alfabetico": "Araya Beltran", "linkedin": "https://www.linkedin.com/in/patricio-araya-beltr%C3%A1n-43ba5651/", "web": "", "academico": "" },
     { "nombre": "Patricio Arias Cortés", "alfabetico": "Arias Cortés", "linkedin": "https://www.linkedin.com/in/patricio-arias-cortes-a1948935/", "web": "", "academico": "" },
@@ -13,7 +12,6 @@
     { "nombre": "Carla Cortés Hernández", "alfabetico": "Cortés Hernández", "linkedin": "https://www.linkedin.com/in/carla-cortes/", "web": "", "academico": "" },
     { "nombre": "Sol Díaz Castillo", "alfabetico": "Díaz Castillo", "linkedin": "", "web": "https://www.soldiaz.com/", "academico": "" },
     { "nombre": "Carlota Durán Vivanco", "alfabetico": "Durán Vivanco", "linkedin": "https://www.linkedin.com/in/carlota-duran-vivanco-3b076b20/", "web": "https://www.tejaverde.cl/", "academico": "" },
-    { "nombre": "Daniel Ferrera Leiva*", "alfabetico": "Ferrera Leiva", "linkedin": "https://www.linkedin.com/in/daniel-ferrera-leiva-55a65590/", "web": "", "academico": "" },
     { "nombre": "Claudio Fredes Osses", "alfabetico": "Fredes Osses", "linkedin": "https://www.linkedin.com/in/claudiofredesosses/", "web": "https://www.claudiofredes.com/", "academico": "" },
     { "nombre": "Pamela Fuentes Villavicencio", "alfabetico": "Fuentes Villavicencio", "linkedin": "https://www.linkedin.com/in/pamela-fuentes-villavicencio/", "web": "", "academico": "" },
     { "nombre": "Álvaro Gainza Veloso", "alfabetico": "Gainza Veloso", "linkedin": "", "web": "", "academico": "" },
@@ -24,7 +22,6 @@
     { "nombre": "José Marín Pacheco*", "alfabetico": "Marín Pacheco", "linkedin": "https://www.linkedin.com/in/jose-antonio-marin-pacheco-086a0215/", "web": "", "academico": "" },
     { "nombre": "David Maulén De los Reyes", "alfabetico": "Maulén De los Reyes", "linkedin": "https://www.linkedin.com/in/david-fernando-maulen-de-los-reyes-8562a830/", "web": "", "academico": "" },
     { "nombre": "Clarisa Menteguiaga Schmidt*", "alfabetico": "Menteguiaga Schmidt", "linkedin": "https://www.linkedin.com/in/clarisa-menteguiaga-5ba9b44a/", "web": "", "academico": "" },
-    { "nombre": "Andrea Meza Navarro*", "alfabetico": "Meza Navarro", "linkedin": "https://www.linkedin.com/in/andrea-meza-navarro/", "web": "", "academico": "https://orcid.org/0000-0001-7322-7706" },
     { "nombre": "Victor Molina Santander", "alfabetico": "Molina Santander", "linkedin": "https://www.linkedin.com/in/v%C3%ADctor-molina-santander-2037713b/", "web": "", "academico": "" },
     { "nombre": "Alfredo Mora Briones", "alfabetico": "Mora Briones", "linkedin": "https://www.linkedin.com/in/alfredo-mora-6546b648/", "web": "", "academico": "https://scholar.google.com/citations?user=hbkjZJgAAAAJ&hl=es" },
     { "nombre": "María Paz Morales Mujica", "alfabetico": "Morales Mujica", "linkedin": "https://www.linkedin.com/in/maria-paz-morales/", "web": "https://www.dudoediciones.cl/", "academico": "" },
