@@ -373,6 +373,7 @@
                     <table>
                         <thead>
                             <tr>
+                                <th>N°</th>
                                 <th>Nombre</th>
                                 <th class="text-center">LinkedIn</th>
                                 <th class="text-center">Web personal</th>
@@ -707,48 +708,48 @@
                 },
                 {
                     web: "",
-                    nombre: "Patricia Campos",
+                    nombre: "Patricia Campos Donoso",
                     linkedin: "",
                 },
                 {
                     web: "",
-                    nombre: "Silvia Caruquel",
+                    nombre: "Silvia Caracuel Ponce",
                     linkedin: "",
                 },
                 {
                     web: "",
-                    nombre: "Ricardo Castro",
+                    nombre: "Ricardo Castro Meza",
                     linkedin: "",
                 },
                 {
                     web: "",
-                    nombre: "Maximiliano Contreras",
+                    nombre: "Maximiliano Contreras Maluenda",
                     linkedin: "",
                 },
                 {
                     web: "",
-                    nombre: "David Díaz H",
+                    nombre: "David Díaz Hernández",
                     linkedin: "",
                 },
                 {
                     web: "",
-                    nombre: "Rocío Dobbs",
+                    nombre: "Rocío Dobbs Dittus",
                     linkedin: "",
                 },
                 {
                     web: "",
-                    nombre: "Natalia Duimovic",
+                    nombre: "Natalia Duimovic Tapia",
                     linkedin: "",
                 },
                 {
                     web: "",
-                    nombre: "Camila Espinoza H.",
+                    nombre: "Camila Espinoza Hernández",
                     linkedin: "",
                 },
                 {
                     web: "",
-                    nombre: "Rocío Espinoza S.",
-                    linkedin: "",
+                    nombre: "Rocío Espinoza Sepúlveda",
+                    linkedin: "https://www.linkedin.com/in/respsep/",
                 },
                 {
                     web: "https://www.claudiofredes.com/",
@@ -761,10 +762,10 @@
                     linkedin: "https://www.linkedin.com/in/pamela-fuentes-villavicencio/",
                 },
                 { web: "", nombre: "Álvaro Gainza Veloso", linkedin: "" },
-                { web: "", nombre: "Guillermo Guerra C.", linkedin: "" },
-                { web: "", nombre: "Mónica Hernández M.", linkedin: "" },
-                { web: "", nombre: "Vicente Ibarra D.", linkedin: "" },
-                { web: "", nombre: "Pilar Labra G.", linkedin: "" },
+                { web: "", nombre: "Guillermo Guerra Corral", linkedin: "" },
+                { web: "", nombre: "Mónica Hernández Magofke", linkedin: "" },
+                { web: "", nombre: "Vicente Ibarra Domínguez", linkedin: "" },
+                { web: "", nombre: "Pilar Labra González", linkedin: "https://www.linkedin.com/in/pilar-labra-gonz%C3%A1lez-9524492b/" },
                 {
                     web: "",
                     nombre: "Andrea Lizana Solís",
@@ -780,7 +781,7 @@
                     nombre: "José Marín Pacheco",
                     linkedin: "https://www.linkedin.com/in/jose-antonio-marin-pacheco-086a0215/",
                 },
-                { web: "", nombre: "Paulina Mella S.", linkedin: "" },
+                { web: "", nombre: "Paulina Mella Silva", linkedin: "" },
                 {
                     web: "",
                     nombre: "Victor Molina Santander",
@@ -796,14 +797,14 @@
                     nombre: "María Paz Morales Mujica",
                     linkedin: "https://www.linkedin.com/in/maria-paz-morales/",
                 },
-                { web: "", nombre: "Kathya Moron T.", linkedin: "" },
-                { web: "", nombre: "Mariana Muñoz H.", linkedin: "" },
+                { web: "", nombre: "Kathya Moron Tadic", linkedin: "https://www.linkedin.com/in/kathyamilena/" },
+                { web: "", nombre: "Mariana Muñoz Hauer", linkedin: "https://www.linkedin.com/in/mariana-mu%C3%B1oz-hauer-071068b1/" },
                 {
                     web: "",
                     nombre: "Alejandra Poblete Pérez",
                     linkedin: "https://www.linkedin.com/in/alejapobletedesign/",
                 },
-                { web: "", nombre: "Esteban Ramírez", linkedin: "" },
+                { web: "", nombre: "Esteban Ramírez Gonzalez", linkedin: "https://www.linkedin.com/in/esteban-ramirez-gonzalez-8189b6153/" },
 
                 {
                     web: "",
@@ -823,17 +824,15 @@
                 },
                 {
                     web: "",
-                    nombre: "Ricardo Sepúlveda S.",
-                    linkedin: "",
+                    nombre: "Ricardo Sepúlveda Soto",
+                    linkedin: "https://www.linkedin.com/in/ricardo-sepulveda-diseno-industrial/",
                 },
-                { web: "", nombre: "Carlos Rojas Maffioletti", linkedin: "" },
 
-
-                { web: "", nombre: "Eugenia Torres Barrientos", linkedin: "" },
-                { web: "", nombre: "Rita Torres Vásquez", linkedin: "" },
-                { web: "", nombre: "Victor Urrutia", linkedin: "" },
-                { web: "", nombre: "Andrea Verdugo", linkedin: "" },
-                { web: "", nombre: "Álvado Vidal", linkedin: "" },
+                { web: "", nombre: "Eugenia Torres Barrientos", linkedin: "https://www.linkedin.com/in/eugenia-torres-4ab5b42/" },
+                { web: "", nombre: "Rita Torres Vásquez", linkedin: "https://www.linkedin.com/in/rita-torres-v%C3%A1squez-0824a0182/" },
+                { web: "", nombre: "Victor Urrutia Meza", linkedin: "https://www.linkedin.com/in/victor-urrutia-meza-1b316a86/" },
+                { web: "", nombre: "Andrea Verdugo Lara", linkedin: "https://www.linkedin.com/in/andrea-verdugo-4b7684151/" },
+                { web: "", nombre: "Álvaro Vidal Silva", linkedin: "https://www.linkedin.com/in/alvaro-vidal-10a422283/" },
 
             ];
 
@@ -855,8 +854,8 @@
 
             function masDatos() {
                 const docentes = DOCENTES_DATA;
-                docentes.forEach((x) => {
-                    tabla.innerHTML += `<tr><td>${x.nombre}</td><td class="text-center">${linkedIn(x.linkedin)}</td><td class="text-center">${linkedWeb(x.web)}</td></tr>`;
+                docentes.forEach((x,i) => {
+                    tabla.innerHTML += `<tr><td>${i+1}</td><td>${x.nombre}</td><td class="text-center">${linkedIn(x.linkedin)}</td><td class="text-center">${linkedWeb(x.web)}</td></tr>`;
                 });
             }
             masDatos();
