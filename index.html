@@ -1,5 +1,4 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="utf-8" />
@@ -7,9 +6,16 @@
         <title>Diseño en la Universidad de Chile — 101</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet" />
-
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Space+Grotesk:wght@300..700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+            crossorigin="anonymous"
+        />
         <style>
             body {
                 font-family: "Space Grotesk", sans-serif;
@@ -20,21 +26,17 @@
             .container {
                 width: min(90vw, 900px) !important;
             }
-
             .container-fluid {
                 width: min(95vw, 1200px) !important;
             }
-
             a {
                 color: rgba(255, 255, 255, 0.9);
                 text-decoration: none;
             }
-
             a:hover {
                 color: rgba(255, 255, 255, 1);
                 text-decoration: underline;
             }
-
             h1 {
                 color: rgba(255, 255, 255, 0.5);
                 font-size: calc(2rem + 6vw);
@@ -48,29 +50,42 @@
                 font-style: italic;
                 font-size: 108%;
             }
-
             h1 > small {
                 font-size: 80%;
                 font-weight: 500;
                 letter-spacing: 0.5rem;
             }
-
             h2 {
                 color: rgba(255, 255, 255, 0.9);
+                font-size: calc(1rem + 1vw);
+
+            }
+
+            h3 {
+                color: rgba(255, 255, 255, 0.8);
+                font-size: calc(1rem + 0.5vw);
+
+            }
+
+
+            h4 {
+                color: rgba(255, 255, 255, 0.95);
+                font-size: calc(0.75rem + 0.25vw);
+                letter-spacing: .25rem;
+                font-weight: 800;
+
             }
 
             em {
                 font-weight: 500;
                 font-style: normal;
             }
-
             blockquote em {
                 text-shadow: 0 0 3px black;
                 font-weight: 700;
                 letter-spacing: 0.05rem;
                 color: rgba(255, 255, 255, 0.75);
             }
-
             blockquote > cite {
                 display: block;
                 text-align: right;
@@ -78,37 +93,30 @@
                 font-size: 90%;
                 letter-spacing: 0.1rem;
             }
-
             blockquote > cite:before {
                 content: "— ";
             }
-
             blockquote > cite a {
                 color: rgba(255, 255, 255, 0.5);
                 text-decoration: none;
                 transition: all ease 0.5s;
             }
-
             blockquote > cite a:hover {
                 color: rgba(255, 255, 255, 0.9);
                 text-decoration: none;
                 transition: all ease 1s;
             }
-
             figure {
                 position: relative;
             }
-
             figure img {
                 opacity: 0.7;
                 transition: all ease 1s;
             }
-
             figure:hover img {
                 opacity: 1;
                 transition: all ease 0.5s;
             }
-
             figure figcaption {
                 color: hsl(224, 27%, 23%);
                 position: absolute;
@@ -119,27 +127,23 @@
                 z-index: 99999;
                 line-height: 1.8;
             }
-
             figure figcaption span,
             figure figcaption a {
                 color: hsl(224, 27%, 23%);
                 background: rgba(255, 255, 255, 0.75);
                 padding: 0.25rem;
             }
-
             figure figcaption span {
                 font-family: "Times New Roman", Times, serif;
                 font-weight: 800;
                 font-style: italic;
             }
-
             li em {
                 font-family: "Times New Roman", Times, serif;
                 font-weight: 400;
                 font-style: italic;
                 font-size: 110%;
             }
-
             table {
                 border-collapse: collapse;
                 width: 100%;
@@ -156,117 +160,171 @@
                 <header class="col-12 me-auto my-5">
                     <h1>Diseño en la <em>Universidad de Chile</em> — <small>101</small></h1>
                 </header>
-
                 <section class="col-11 me-auto">
                     <p>Es importante saber lo que sigue.</p>
                 </section>
-
                 <main class="col-11 ms-auto mt-3">
                     <blockquote class="mb-5">
                         <p>
-                            <em>La Universidad asume con vocación de excelencia la formación de personas y la contribución al desarrollo espiritual y material de la Nación</em>.
-                            <em>Cumple su misión a través de las funciones de docencia, investigación y creación</em> en las ciencias y las tecnologías, las humanidades y las artes, <em>y de extensión del conocimiento y la cultura</em> en
-                            toda su amplitud. Procura ejercer estas funciones <em>con el más alto nivel de exigencia</em>.
+                            <em
+                                >La Universidad asume con vocación de excelencia</em> la formación de personas y la
+                                contribución al desarrollo espiritual y material de la Nación.
                         </p>
-                        <cite><a href="https://uchile.cl/u39635" target="_blank">Misión de la Universidad de Chile</a></cite>
+                        <cite
+                            ><a href="https://uchile.cl/u39635" target="_blank"
+                                >Misión de la Universidad de Chile</a
+                            ></cite
+                        >
+                    </blockquote>
+                    <blockquote class="mb-5">
+                        <p>
+                            En la Universidad de Chile <em>es deber de cada estudiante asumir la responsabilidad principal de su formación</em>, con el apoyo y supervisión de sus profesores/as y la interacción con sus pares.
+                        </p>
+                        <cite
+                            ><a href="https://uchile.cl/u67177" target="_blank"
+                                >Reglamento de Estudiantes de la Universidad de Chile</a
+                            ></cite
+                        >
+                    </blockquote>
+
+                    <h3>Grado Académico y Título Profesional</h3>
+                    <blockquote class="mb-5">
+                        <p>
+                            A cada estudiante que asuma tal responsabilidad, se le podrá conducir al
+                            <em>grado académico de Licenciado/a en Diseño</em> y al
+                            <em>título profesional</em> de:</p>
+                            <ul>
+                                <li>Diseñador/a,</li> 
+                                <li>Diseñador/a con mención en Visualidad y Medios, o</li>
+                                <li>Diseñador/a con mención Industrial y Servicios</li>
+                            </ul>
+                        <cite
+                            ><a
+                                href="https://fau.uchile.cl/dam/jcr:3f7b4e53-cea0-48fe-9f31-8e1991e21d29/Dise%EF%BF%BDo_v4.pdf"
+                                target="_blank"
+                                >Reglamento de carrera</a
+                            ></cite
+                        >
+                    </blockquote>
+                    <h3>Marco Formativo</h3>
+ 
+                    <blockquote class="mb-5">
+                        <p>
+                            En la Universidad de Chile, los estudios conducentes al
+                            <em
+                                >grado de licenciada/o son aquellos que desarrollan en el estudiante una profunda
+                                capacidad de reflexión y análisis</em
+                            >, a la vez que le proporcionan el conocimiento que le permiten desempeñarse en aspectos
+                            específicos de una especialidad.
+                        </p>
+                        <cite
+                            ><a href="https://uchile.cl/u51769" target="_blank"
+                                >Reglamento General de los Estudios Universitarios de Pregrado</a
+                            ></cite
+                        >
                     </blockquote>
 
                     <blockquote class="mb-5">
-                        <p><em>Es deber de los/las estudiantes asumir la responsabilidad principal de su propia formación</em>, con el apoyo y supervisión de sus profesores/as y la interacción con sus pares.</p>
-                        <cite><a href="https://uchile.cl/u67177" target="_blank">Reglamento de Estudiantes de la Universidad de Chile</a></cite>
+                        <p>
+                            Y los estudios conducentes a un <em>título profesional</em> son aquellos que <em>proporcionan el dominio integral de una especialidad</em>, junto con las competencias necesarias para desempeñarse en tal campo profesional.
+                        </p>
+                        <cite
+                            ><a href="https://uchile.cl/u51769" target="_blank"
+                                >Reglamento General de los Estudios Universitarios de Pregrado</a
+                            ></cite
+                        >
                     </blockquote>
+
+                    <h3>Perfil de Egreso</h3>
+
 
                     <blockquote class="mb-5">
                         <p>
-                            A cada estudiante que asuma tal resposabilidad, se le conducirá al <em>grado académico de Licenciada/o en Diseño</em> y el
-                            <em>título profesional de Diseñador/a, Diseñador/a con mención en Visualidad y Medios, o Diseñador/a con mención Industrial y Servicios</em>.
+                            El perfil de egreso del (de la) <em>Diseñador(a) de la Universidad de Chile</em>, en cuanto
+                            a su saber fundamental, se trata de un(a) profesional
+                            <em>formado(a) para conceptualizar, proyectar y producir</em> creativa y reflexivamente los
+                            <em>objetos, signos y fenómenos del entorno humano artificial y natural</em> a través de
+                            procesos significativos de creación morfológica de mediación, que generen valor social y
+                            económico y ambiental,
+                            <em>para y desde las ciudadanías, las comunidades y las personas</em>.
                         </p>
-                        <cite><a href="https://uchile.cl/t4929" target="_blank">Carreras de Pregrado en la FAU</a></cite>
+                        <h4>DE LOS ÁMBITOS DE DESEMPEÑO:</h4>
+                        <p>El (la) Diseñador(a) de la Universidad de Chile está habilitado(a) para:</p>
+                        <p>
+                            <em>I. Evaluar</em> la interacción del ser humano con su entorno físico y cultural, desde la
+                            empatía y el trabajo colaborativo con otros agentes, con el fin de detectar necesidades y
+                            oportunidades de actuación profesional, las que pueden tomar formar de diagnóstico,
+                            monitoreo de procesos y evaluación de impactos de su quehacer.
+                        </p>
+                        <p>
+                            <em>II. Crear</em> propuestas morfológicas innovadoras, estados de significación y valor,
+                            para formas, códigos, lenguajes y fenómenos comunicacionales y relacionales, entre las
+                            ciudadanías y el entorno artificial, las comunidades, las personas y sus contextos.
+                        </p>
+                        <p>
+                            <em>III. Gestionar</em> sistemas productivos y talentos propios y de otros, articulando
+                            procesos, recursos y agentes relacionados con la industria, las organizaciones sociales y la
+                            gobernabilidad.
+                        </p>
+                        <p>
+                            <em>IV. Sistematizar</em> experiencias de la disciplina o profesión, produciendo,
+                            representando, transfiriendo y preservando conocimientos y vinculándolas con otros saberes,
+                            para identificar necesidades y generar soluciones de diseño.
+                        </p>
+                        <cite
+                            ><a
+                                href="https://fau.uchile.cl/dam/jcr:3f7b4e53-cea0-48fe-9f31-8e1991e21d29/Dise%EF%BF%BDo_v4.pdf"
+                                target="_blank"
+                                >Reglamento de carrera</a
+                            ></cite
+                        >
                     </blockquote>
+
+<h3>Carga Académica y Créditos SCT</h3>
 
                     <blockquote class="mb-5">
                         <p>
-                            Los estudios conducentes al <em>grado de licenciada/o son aquellos que desarrollan en el estudiante una profunda capacidad de reflexión y análisis</em>, a la vez que le proporcionan el conocimiento que le
-                            permiten desempeñarse en aspectos específicos de una especialidad.
+                            Cada asignatura debe aportar a determinados ámbitos de desempeño (sea evaluar, crear, gestionar o sistematizar), según se establezca en reglamento de carrera y siempre respetando la carga académica que corresponda por créditos SCT.
                         </p>
                         <p>
-                            Los estudios conducentes a un <em>título profesional universitario son aquéllos que proporcionan el dominio integral de una especialidad</em>, ya sea ésta del campo de las humanidades, de las artes, de las
-                            ciencias o de la tecnología; como también las competencias necesarias para desempeñarse en un campo profesional.
+                            El <em>Modelo Educativo de La Universidad</em> define que la carga académica del plan de formación debe ser de 60
+                            créditos SCT anuales, y
+                            <em>que 1 crédito SCT representa 27 horas cronológicas</em>. Además estima que cada
+                            estudiante debe tener una <em>dedicación máxima de 45 horas</em> de trabajo académico semanal para el logro de sus aprendizajes.
                         </p>
-
-                        <cite><a href="https://uchile.cl/u51769" target="_blank">Reglamento General de los Estudios Universitarios de Pregrado</a></cite>
+                        <cite
+                            ><a href="https://libros.uchile.cl/index.php/sisib/catalog/book/1431" target="_blank"
+                                >Modelo Educativo de la Universidad de Chile</a
+                            ></cite
+                        >
                     </blockquote>
 
-                    <blockquote class="mb-5">
-                        <p>
-                            El perfil de egreso del (de la) <em>Diseñador(a) de la Universidad de Chile</em>, en cuanto a su saber fundamental, se trata de un(a) profesional
-                            <em>formado(a) para conceptualizar, proyectar y producir</em> creativa y reflexivamente los <em>objetos, signos y fenómenos del entorno humano artificial y natural</em> a través de procesos significativos de
-                            creación morfológica de mediación, que generen valor social y económico y ambiental, <em>para y desde las ciudadanías, las comunidades y las personas</em>.
-                        </p>
+<h3>Asignaturas Electivas</h3>
 
-                        <p>DE LOS ÁMBITOS DE DESEMPEÑO:</p>
-
-                        <p>El (la) Diseñadr(a) de la Universidad de Chile está habilitado(a) para:</p>
-
-                        <p>
-                            <em>I. Evaluar</em> la interacción del ser humano con su entorno físico y cultural, desde la empatía y el trabajo colaborativo con otros agentes, con el fin de detectar necesidades y oportunidades de actuación
-                            profesional, las que pueden tomar formar de diagnóstico, monitoreo de procesos y evaluación de impactos de su quehacer.
-                        </p>
-
-                        <p>
-                            <em>II. Crear</em> propuestas morfológicas innovadoras, estados de significación y valor, para formas, códigos, lenguajes y fenómenos comunicacionales y relacionales, entre las ciudadanías y el entorno
-                            artificial, las comunidades, las personas y sus contextos.
-                        </p>
-
-                        <p><em>III. Gestionar</em> sistemas productivos y talentos propios y de otros, articulando procesos, recursos y agentes relacionados con la industria, las organizaciones sociales y la gobernabilidad.</p>
-
-                        <p>
-                            <em>IV. Sistematizar</em> experiencias de la disciplina o profesión, produciendo, representando, transfiriendo y preservando conocimientos y vinculándolas con otros saberes, para identificar necesidades y generar
-                            soluciones de diseño.
-                        </p>
-
-                        <cite><a href="https://fau.uchile.cl/dam/jcr:3f7b4e53-cea0-48fe-9f31-8e1991e21d29/Dise%EF%BF%BDo_v4.pdf" target="_blank">Reglamento de carrera</a></cite>
-                    </blockquote>
-
-                    <blockquote class="mb-5">
-                        <p>Cada asignatura debe aportar a determinados ámbitos de desempeño, siempre respetando la carga académica que le correspondan por sus créditos SCT.</p>
-
-                        <p>
-                            <em>La Universidad define</em> que la carga académica del plan de formación debe ser de 60 créditos SCT anuales, distribuida en semestres académicos de 18 semanas, y
-                            <em>que 1 (un) crédito SCT representa 27 horas cronológicas</em>. Se estima que cada estudiante debe tener una dedicación máxima de 45 horas de trabajo académico semanal para el logro de sus aprendizajes.
-                        </p>
-                        <cite><a href="https://libros.uchile.cl/index.php/sisib/catalog/book/1431" target="_blank">Modelo Educativo de la Universidad de Chile</a></cite>
-                    </blockquote>
 
                     <blockquote class="mb-5">
                         <p>Las asignaturas electivas de diseño suman en total 27 créditos SCT. Esto considerando:</p>
-
                         <p>Semestre 5 • Electivos definidos por mención: <em>9 (total)</em></p>
                         <p>Semestre 6 • Electivos definidos por mención: <em>9 (total)</em></p>
                         <p>Semestre 7 • Electivos definidos por mención: <em>9 (total)</em></p>
-
-                        <p>Para obtener una mención en su título profesional, el (la) estudiante <em>deberá cursar al menos 18 créditos</em> en asignaturas electivas propias de la mención y realizar la práctica laboral en la misma mención.</p>
-
+                        <p>
+                            Para obtener una mención en su título profesional, cada estudiante
+                            <em>deberá cursar al menos 18 créditos</em> en asignaturas electivas propias de la mención y
+                            realizar la práctica laboral en la misma mención.
                         </p>
-                        <cite><a href="https://fau.uchile.cl/dam/jcr:3f7b4e53-cea0-48fe-9f31-8e1991e21d29/Dise%EF%BF%BDo_v4.pdf" target="_blank">Reglamento de carrera</a></cite>
+                        <cite
+                            ><a
+                                href="https://fau.uchile.cl/dam/jcr:3f7b4e53-cea0-48fe-9f31-8e1991e21d29/Dise%EF%BF%BDo_v4.pdf"
+                                target="_blank"
+                                >Reglamento de carrera</a
+                            ></cite
+                        >
                     </blockquote>
                 </main>
-
-                </main>
-
                 <section class="col-12 me-auto">
-                    <h2>El plantel académico</h2>
+                    <h2>Profesoras y Profesores de Diseño</h2>
                     <p>
-                        A continuación se presenta parte de quienes apoyarán y supervisarán la formación de cada estudiante en las distintas asignaturas del Plan de Formación. Lo harán con
-                        <em>una jerarquía que certifica el reconocimiento de la Universidad respecto de su idoneidad para desempeñarse en distintas funciones académicas</em> (ver
-                        <a
-                            href="https://uchile.cl/presentacion/senado-universitario/reglamentos/reglamentos-aprobados-o-modificados-por-el-senado-universitario/reglamento-general-de-carrera-academica-de-la-universidad-de-chile"
-                            class="link-light"
-                            target="_blank"
-                        >
-                            Reglamento General de Carrera Académica de la Universidad de Chile
-                        </a>
-                        )
+                        A continuación se presenta a quienes apoyarán y supervisarán la formación de cada estudiante en las distintas asignaturas del Plan de Formación, desde <em>una jerarquía que certifica el reconocimiento de la Universidad respecto de su idoneidad para desempeñarse en distintas funciones académicas</em> (ver <a href="https://uchile.cl/presentacion/senado-universitario/reglamentos/reglamentos-aprobados-o-modificados-por-el-senado-universitario/reglamento-general-de-carrera-academica-de-la-universidad-de-chile" class="link-light" target="_blank">Reglamento General de Carrera Académica de la Universidad de Chile</a>).
                     </p>
                 </section>
             </div>
@@ -278,45 +336,40 @@
             <div class="row">
                 <div class="col-12 my-3">
                     <p>
-                        Entre nuestro plantel académico, corresponde reconocer algunas autoridades de la <a href="https://fau.uchile.cl/" target="_blank" class="link-light">Facultad de Arquitectura y Urbanismo</a> de la Universidad de
-                        Chile:
+                        Entre nuestro plantel académico, corresponde reconocer algunas autoridades de la
+                        <a href="https://fau.uchile.cl/facultad/presentacion/autoridades" target="_blank" class="link-light"
+                            >Facultad de Arquitectura y Urbanismo</a
+                        >
+                        de la Universidad de Chile:
                     </p>
-
                     <ul>
-                        <li>Prof. Magdalena Cattan Lavín — <em>Subdirectora de la Escuela de Pregrado</em></li>
                         <li>Prof. Felipe Cortez Orellana — Jefe de la Carrera de Diseño</li>
                         <li>Prof. Pablo Domínguez González — Secretario de Estudios</li>
                         <li>Prof. Sergio Donoso Cisternas — Director del Departamento de Diseño</li>
-                        <li>Prof. Cristián Gómez Moya — Director de Investigación y Creación</li>
-                        <li>Prof. Lorna Lares López — Directora de Asuntos Estudiantiles</li>
                         <li>Prof. Rodrigo Vera Manríquez — Director del Instituto de Historia y Patrimonio</li>
                     </ul>
-
-                    <p>Y debe sumarse al plantel académico ya referido, con adscripción a la Escuela de Pregrado Unificada o el Departamento de Diseño, a quienes colaboran al plan de formación desde otras adscripciones:</p>
+                    <p>
+                        Y debe sumarse al plantel académico ya referido, con adscripción a la Escuela de Pregrado o el Departamento de Diseño, a quien colabora al plan de formación desde otra adscripción:
+                    </p>
                     <ul>
-                        <li><a href="https://portafolio-academico.uchile.cl/perfil/21670-Camilo-Ramon-Arriagada-Luco" target="_blank">Prof. Camilo Arriagada Luco</a> — <em>Profesor Asociado</em>, adscrito al Departamento de Urbanismo</li>
                         <li>
-                            <a href="https://portafolio-academico.uchile.cl/perfil/42236-Carlos-Gregorio-de-Jesus-Lange-Valdes" target="_blank">Prof. Carlos Lange Valdés</a> — <em>Prof. Asistente</em>, adscrito al Instituto de la Vivienda
-                        </li>
-                        <li>
-                            <a href="https://portafolio-academico.uchile.cl/perfil/43537-Rebeca-Jazmin-Millaray-Silva-Roquefort" target="_blank">Prof. Rebeca Silva Roquefort</a> — <em>Prof. Asistente</em>, adscrita al Instituto de la
-                            Vivienda
+                            <a
+                                href="https://portafolio-academico.uchile.cl/perfil/43537-Rebeca-Jazmin-Millaray-Silva-Roquefort"
+                                target="_blank"
+                                >Prof. Rebeca Silva Roquefort</a
+                            >
+                            — Prof. Asistente adscrita al Instituto de la Vivienda, y Directora de Asuntos Estudiantiles.
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-
         <section class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>Invitados e invitadas en calidad docente</h2>
+                    <h2>Colaboración en tarea docente</h2>
                     <p>
-                        Colaborando con la función docente, se invita en cada semestre a un grupo de expertos(as) externos(as), y se les confía el apoyo y supervición de la formación de cada estudiante. Estos(as) expertos(as) son, a su vez,
-                        supervisados(as) por académicos(as) que tutelan cada asignatura.
-                    </p>
-                    <p>Para el segundo semestre de 2025, los(as) expertos(as) son:</p>
-
+                        Para colaborar con la docencia de quienes fueron recién presentados como Profesoras y Profesores, para el segundo semestre de 2026, se considera a:</p>
                     <table>
                         <thead>
                             <tr>
@@ -327,35 +380,48 @@
                         </thead>
                         <tbody id="tabla"></tbody>
                     </table>
-
-                    <small>* Están en proceso para ingresar al plantel académico en jerarquía de Profesor(a)</small>
                 </div>
             </div>
         </section>
-
         <section class="container my-5">
             <div class="row">
                 <div class="col-12">
                     <h2>También puede ser útil:</h2>
-
-                    <p>Tener a mano el <em>calendario académico</em> <a href="https://disenouchile.github.io/guiaturas/calendario-2025-2.pdf" target="_blank">https://disenouchile.github.io/guiaturas/calendario-2025-2.pdf</a></p>
-
                     <p>
-                        Contar con la <em>Dirección de Asuntos estudiantiles FAU</em>, y sus área de atención al estudiante, con apoyo psicológico y apoyo psicopedagógico, además de Bienestar estudiantil, Ingreso de equidad e inclusión y Área
-                        accionar comunitario. Para aprender más, <em>visite</em>: <a href="https://fau.uchile.cl/facultad/escuelas-y-direcciones/direccion-asuntos-estudiantiles" target="_blank">https://fau.uchile.cl/facultad/escuelas-y-direcciones/direccion-asuntos-estudiantiles</a>
+                        Tener a mano el <em>calendario académico</em>
+                        <a href="https://disenouchile.github.io/guiaturas/calendario-2026-2.pdf" target="_blank"
+                            >https://disenouchile.github.io/guiaturas/calendario-2026-2.pdf</a
+                        >
                     </p>
-
+                    <p>
+                        Saber que existe la <em>Dirección de Asuntos estudiantiles FAU</em>: <a
+                            href="https://fau.uchile.cl/facultad/escuelas-y-direcciones/direccion-asuntos-estudiantiles"
+                            target="_blank"
+                            >https://fau.uchile.cl/facultad/escuelas-y-direcciones/direccion-asuntos-estudiantiles</a
+                        >
+                    </p>
                     <p>Aprovechar los recursos disponibles en</p>
                     <ul>
-                        <li><a href="https://aprendizaje.uchile.cl/" target="_blank">https://aprendizaje.uchile.cl/</a></li>
-                        <li><a href="https://bibliotecadigital.uchile.cl/" target="_blank">https://bibliotecadigital.uchile.cl/</a></li>
-                        <li><a href="https://concienciasaludable.uchile.cl/" target="_blank">https://concienciasaludable.uchile.cl/</a></li>
-                        <li><a href="https://repositorio.uchile.cl/" target="_blank">https://repositorio.uchile.cl/</a></li>
+                        <li>
+                            <a href="https://aprendizaje.uchile.cl/" target="_blank">https://aprendizaje.uchile.cl/</a>
+                        </li>
+                        <li>
+                            <a href="https://bibliotecadigital.uchile.cl/" target="_blank"
+                                >https://bibliotecadigital.uchile.cl/</a
+                            >
+                        </li>
+                        <li>
+                            <a href="https://concienciasaludable.uchile.cl/" target="_blank"
+                                >https://concienciasaludable.uchile.cl/</a
+                            >
+                        </li>
+                        <li>
+                            <a href="https://repositorio.uchile.cl/" target="_blank">https://repositorio.uchile.cl/</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </section>
-
         <footer class="container my-5">
             <p class="small d-flex justify-content-between align-items-center">
                 <span>
@@ -367,20 +433,413 @@
                 </span>
             </p>
         </footer>
-
         <script>
             const fichas = document.querySelector("#fichas");
-
             const tabla = document.querySelector("#tabla");
 
-            async function datos() {
-                const consulta = await fetch("https://api.myjson.online/v1/records/6a17f890-1a65-45e6-8c26-10ce18c28ca5");
-                const data = await consulta.json();
-                const plantel = data.data.profes;
-                console.log(plantel);
+            // Datos incrustados localmente: ya no se depende de un fetch() a una API externa.
+            const PROFES_DATA = [
+                {
+                    foto: "https://disenouchile.github.io/101/img/abud_carrillo.webp",
+                    nombre: "Jenny Abud Carrillo",
+                    nivel: "Profesora Adjunta",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/54617",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/araya_beltran.webp",
+                    nombre: "Patricio Araya Beltrán",
+                    nivel: "Profesor Adjunto",
+                    perfil: "https://portafolio-academico.uchile.cl/perfil/29868-Patricio-Fernando-Araya-Beltran",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/basaez_villagran.webp",
+                    nombre: "Christian Basáez Villagrán",
+                    nivel: "Profesor Adjunto",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/64686",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/bascunan_correa.webp",
+                    nombre: "Patricio Bascuñán Correa",
+                    nivel: "Profesor Asistente",
+                    perfil: "https://portafolio-academico.uchile.cl/perfil/80951-Patricio-Andres-Bascunan-Correa",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/becas_v.webp",
+                    nombre: "Macarena Becas Villegas",
+                    nivel: "Profesora Adjunta",
+                    perfil: "https://portafolio-academico.uchile.cl/perfil/59347-Macarena-Leonor-Becas-Villegas",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/castillo_espinoza.webp",
+                    nombre: "Eduardo Castillo Espinoza",
+                    nivel: "Profesor Asociado",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/40224",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/cattan_lavin.webp",
+                    nombre: "Magdalena Cattan Lavín",
+                    nivel: "Profesora Asistente",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/60796",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/cortez_orellana.webp",
+                    nombre: "Felipe Cortez Orellana",
+                    nivel: "Profesor Adjunto",
+                    perfil: "https://portafolio-academico.uchile.cl/perfil/51470",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/de_la_sotta_lazzerini.webp",
+                    nombre: "Paola de la Sotta Lazzerini",
+                    nivel: "Profesora Asociada",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/21430",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/dominguez_gonzalez.webp",
+                    nombre: "Pablo Domínguez González",
+                    nivel: "Profesor Asistente",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/51141",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/donoso_cisternas.webp",
+                    nombre: "Pablo Donoso Cisternas",
+                    nivel: "Profesor Asociado",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/31519",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/duenas_santander.webp",
+                    nombre: "Rodrigo Dueñas Santander",
+                    nivel: "Profesor Asistente",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/17335",
+                },                {
+                    foto: "https://disenouchile.github.io/101/img/ferrera_leiva.webp",
+                    nombre: "Daniel Ferrera Leiva",
+                    nivel: "Profesor Adjunto",
+                    perfil: "https://portafolio-academico.uchile.cl/perfil/20194-Daniel-Andres-Ferrera-Leiva",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/gatica_ramirez.webp",
+                    nombre: "Pamela Gatica Ramírez",
+                    nivel: "Profesora Asistente",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/16821",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/gomez_moya.webp",
+                    nombre: "Cristián Gómez Moya",
+                    nivel: "Profesor Asociado",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/30442",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/jacob_dazarola.webp",
+                    nombre: "Rubén Jacob Dazarola",
+                    nivel: "Profesor Asociado",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/30742",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/lares_lopez.webp",
+                    nombre: "Lorna Lares López",
+                    nivel: "Profesora Asistente",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/57067",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/malachinni_soto.webp",
+                    nombre: "Simoné Malacchini Soto",
+                    nivel: "Profesora Asistente",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/69752",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/maldonado_de_la_fuente.webp",
+                    nombre: "Félix Maldonado de la Fuente",
+                    nivel: "Profesor Adjunto",
+                    perfil: "https://portafolio-academico.uchile.cl/perfil/29586-Felix-Daniel-Maldonado-de-la-Fuente",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/mendez_olivares.webp",
+                    nombre: "Iván Méndez Olivares",
+                    nivel: "Profesor Asociado",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/25820",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/menteguiaga_s.webp",
+                    nombre: "Clarisa Menteguiaga Schmidt",
+                    nivel: "Profesora Adjunta",
+                    perfil: "https://www.clarisamenteguiaga.com/",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/meza_navarro.webp",
+                    nombre: "Andrea Meza Navarro",
+                    nivel: "Profesora Asistente",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/25820",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/nunez_gutierrez.webp",
+                    nombre: "Pablo Núñez Gutiérrez",
+                    nivel: "Profesora Asistente",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/24818",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/ode_saleh.webp",
+                    nombre: "Verónica Ode Saleh",
+                    nivel: "Profesora Asistente",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/39338",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/osorio_munoz.webp",
+                    nombre: "Astrid Osorio Muñoz",
+                    nivel: "Profesora Adjunta",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/59788",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/osses_flores.webp",
+                    nombre: "Roberto Osses Flores",
+                    nivel: "Profesor Asistente",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/54091",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/pagueguy_fenner.webp",
+                    nombre: "Sebastian Pagueguy Fenner",
+                    nivel: "Profesor Asistente",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/50589",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/perea_morales.webp",
+                    nombre: "René Perea Morales",
+                    nivel: "Profesor Asistente",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/23435",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/perelli_soto.webp",
+                    nombre: "Bruno Perelli Soto",
+                    nivel: "Profesor Asistente",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/65724",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/pradenas_guentherodt.webp",
+                    nombre: "Gabriela Pradenas Guentherodt",
+                    nivel: "Profesora Adjunta",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/34257",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/reyes_leon.webp",
+                    nombre: "Daniel Reyes León",
+                    nivel: "Profesor Adjunto",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/28329",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/silva_roquefort.webp",
+                    nombre: "Rebeca Silva Roquefort",
+                    nivel: "Profesora Asistente",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/43537",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/soffia_vega.webp",
+                    nombre: "Alejandro Soffia Vega",
+                    nivel: "Profesor Asistente",
+                    perfil: "https://uchile.cl/portafolio-academico/4605207",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/soto_calquin.webp",
+                    nombre: "Leonardo Soto Calquín",
+                    nivel: "Profesor Asistente",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/56222",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/stange_marcus.webp",
+                    nombre: "Hans Stange Marcus",
+                    nivel: "Profesor Asistente",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/58037",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/tapia_reyes.webp",
+                    nombre: "Mauricio Tapia Reyes",
+                    nivel: "Profesor Asistente",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/34140",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/vera_manriquez.webp",
+                    nombre: "Rodrigo Vera Manríquez",
+                    nivel: "Profesor Asociado",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/56222",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/vico_sanchez.webp",
+                    nombre: "Mauricio Vico Sánchez",
+                    nivel: "Profesor Asociado",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/17874",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/vielma_laguna.webp",
+                    nombre: "Mitzi Vielma Laguna",
+                    nivel: "Profesora Adjunta",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/60719",
+                },
+                {
+                    foto: "https://disenouchile.github.io/101/img/zorzano_betancourt.webp",
+                    nombre: "Osvaldo Zorzano Betancourt",
+                    nivel: "Profesor Asistente",
+                    perfil: "https://uchile.cl/portafolio-academico/academico/33113",
+                },
+            ];
+            const DOCENTES_DATA = [
+                {
+                    web: "",
+                    nombre: "María Isabel Barros McIntosh",
+                    linkedin: "https://www.linkedin.com/in/mar%C3%ADa-isabel-barros-91467741/",
+                },
+                {
+                    web: "",
+                    nombre: "Jacob Bustamante Salazar",
+                    linkedin: "https://www.linkedin.com/in/jacobustamante/",
+                },
+                { 
+                    web: "", 
+                    nombre: "Andrea Cabello Cordero", 
+                    linkedin: "https://www.linkedin.com/in/andreacabello/" 
+                },
+                {
+                    web: "",
+                    nombre: "Marcos Calderón Cabrera",
+                    linkedin: "https://www.linkedin.com/in/marcosfelipecalderon/?originalSubdomain=cl",
+                },
+                {
+                    web: "",
+                    nombre: "Juan Calderón Reyes",
+                    linkedin: "https://www.linkedin.com/in/juan-calder%C3%B3n-74431b47/",
+                },
+                {
+                    web: "",
+                    nombre: "Patricia Campos",
+                    linkedin: "",
+                },
+                {
+                    web: "",
+                    nombre: "Silvia Caruquel",
+                    linkedin: "",
+                },
+                {
+                    web: "",
+                    nombre: "Ricardo Castro",
+                    linkedin: "",
+                },
+                {
+                    web: "",
+                    nombre: "Maximiliano Contreras",
+                    linkedin: "",
+                },
+                {
+                    web: "",
+                    nombre: "David Díaz H",
+                    linkedin: "",
+                },
+                {
+                    web: "",
+                    nombre: "Rocío Dobbs",
+                    linkedin: "",
+                },
+                {
+                    web: "",
+                    nombre: "Natalia Duimovic",
+                    linkedin: "",
+                },
+                {
+                    web: "",
+                    nombre: "Camila Espinoza H.",
+                    linkedin: "",
+                },
+                {
+                    web: "",
+                    nombre: "Rocío Espinoza S.",
+                    linkedin: "",
+                },
+                {
+                    web: "https://www.claudiofredes.com/",
+                    nombre: "Claudio Fredes Osses",
+                    linkedin: "https://www.linkedin.com/in/claudiofredesosses/",
+                },
+                {
+                    web: "",
+                    nombre: "Pamela Fuentes Villavicencio",
+                    linkedin: "https://www.linkedin.com/in/pamela-fuentes-villavicencio/",
+                },
+                { web: "", nombre: "Álvaro Gainza Veloso", linkedin: "" },
+                { web: "", nombre: "Guillermo Guerra C.", linkedin: "" },
+                { web: "", nombre: "Mónica Hernández M.", linkedin: "" },
+                { web: "", nombre: "Vicente Ibarra D.", linkedin: "" },
+                { web: "", nombre: "Pilar Labra G.", linkedin: "" },
+                {
+                    web: "",
+                    nombre: "Andrea Lizana Solís",
+                    linkedin: "https://www.linkedin.com/in/andrea-soledad-lizana-solis-9b3b4222/",
+                },
+                {
+                    web: "https://gracemallea.com/",
+                    nombre: "Grace Mallea Maturana",
+                    linkedin: "https://www.linkedin.com/in/grace-mallea-maturana/",
+                },
+                {
+                    web: "",
+                    nombre: "José Marín Pacheco",
+                    linkedin: "https://www.linkedin.com/in/jose-antonio-marin-pacheco-086a0215/",
+                },
+                { web: "", nombre: "Paulina Mella S.", linkedin: "" },
+                {
+                    web: "",
+                    nombre: "Victor Molina Santander",
+                    linkedin: "https://www.linkedin.com/in/v%C3%ADctor-molina-santander-2037713b/",
+                },
+                {
+                    web: "",
+                    nombre: "Alfredo Mora Briones",
+                    linkedin: "https://www.linkedin.com/in/alfredo-mora-6546b648/",
+                },
+                {
+                    web: "https://www.dudoediciones.cl/",
+                    nombre: "María Paz Morales Mujica",
+                    linkedin: "https://www.linkedin.com/in/maria-paz-morales/",
+                },
+                { web: "", nombre: "Kathya Moron T.", linkedin: "" },
+                { web: "", nombre: "Mariana Muñoz H.", linkedin: "" },
+                {
+                    web: "",
+                    nombre: "Alejandra Poblete Pérez",
+                    linkedin: "https://www.linkedin.com/in/alejapobletedesign/",
+                },
+                { web: "", nombre: "Esteban Ramírez", linkedin: "" },
 
+                {
+                    web: "",
+                    nombre: "Claudio Ribalta Pizarro",
+                    linkedin: "https://www.linkedin.com/in/claudio-ribalta-pizarro-0058771a2/",
+                },
+                { web: "", nombre: "Carlos Rojas Maffioletti", linkedin: "" },
+                {
+                    web: "",
+                    nombre: "Carlos Román Aránguiz",
+                    linkedin: "https://www.linkedin.com/in/carlosromanaranguiz/",
+                },
+                {
+                    web: "",
+                    nombre: "Paula Ron Navarro",
+                    linkedin: "https://www.linkedin.com/in/paula-ron-navarro-36a39321b/",
+                },
+                {
+                    web: "",
+                    nombre: "Ricardo Sepúlveda S.",
+                    linkedin: "",
+                },
+                { web: "", nombre: "Carlos Rojas Maffioletti", linkedin: "" },
+
+
+                { web: "", nombre: "Eugenia Torres Barrientos", linkedin: "" },
+                { web: "", nombre: "Rita Torres Vásquez", linkedin: "" },
+                { web: "", nombre: "Victor Urrutia", linkedin: "" },
+                { web: "", nombre: "Andrea Verdugo", linkedin: "" },
+                { web: "", nombre: "Álvado Vidal", linkedin: "" },
+
+            ];
+
+            function datos() {
+                const plantel = PROFES_DATA;
                 var profes = [];
-
                 plantel.forEach((x) => {
                     if (x.nivel.includes("Profes")) {
                         if (!x.nombre.includes("Rebeca")) {
@@ -388,31 +847,19 @@
                         }
                     }
                 });
-
                 profes.forEach((x) => {
-                    fichas.innerHTML += `<div class="col"><figure><img src="${x.foto}" class="w-100 shadow-sm"><figcaption><a href="${x.info.perfil}" target="_blank" class="link-dark fw-bold">${x.nombre}</a><br><span>${x.nivel}</span></figcaption></figure></div>`;
+                    fichas.innerHTML += `<div class="col"><figure><img src="${x.foto}" class="w-100 shadow-sm"><figcaption><a href="${x.perfil}" target="_blank" class="link-dark fw-bold">${x.nombre}</a><br><span>${x.nivel}</span></figcaption></figure></div>`;
                 });
-
-                console.log(profes);
             }
+            datos();
 
-            datos().catch((error) => console.error(error));
-
-            async function masDatos() {
-                const otraConsulta = await fetch("https://api.myjson.online/v1/records/d9cd133a-b4c2-435f-afc3-aadff32c1bbb");
-                const otraData = await otraConsulta.json();
-                const docentes = otraData.data;
-
-                console.log(docentes);
-
+            function masDatos() {
+                const docentes = DOCENTES_DATA;
                 docentes.forEach((x) => {
                     tabla.innerHTML += `<tr><td>${x.nombre}</td><td class="text-center">${linkedIn(x.linkedin)}</td><td class="text-center">${linkedWeb(x.web)}</td></tr>`;
                 });
-
-                console.log(docentes);
             }
-
-            masDatos().catch((error) => console.error(error));
+            masDatos();
 
             function linkedIn(x) {
                 if (x !== "") {
@@ -421,7 +868,6 @@
                     return "";
                 }
             }
-
             function linkedWeb(x) {
                 if (x !== "") {
                     return `<a href="${x}" target="_blank">▧</a>`;
