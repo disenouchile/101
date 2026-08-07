@@ -77,6 +77,11 @@
 
             }
 
+            sup{
+                font-weight: 400;
+                font-size:60%;
+            }
+
             em {
                 font-weight: 500;
                 font-style: normal;
@@ -848,8 +853,8 @@
                         }
                     }
                 });
-                profes.forEach((x) => {
-                    fichas.innerHTML += `<div class="col"><figure><img src="${x.foto}" class="w-100 shadow-sm"><figcaption><a href="${x.perfil}" target="_blank" class="link-dark fw-bold">${x.nombre}</a><br><span>${x.nivel}</span></figcaption></figure></div>`;
+                profes.forEach((x, i) => {
+                    fichas.innerHTML += `<div class="col"><figure><img src="${x.foto}" class="w-100 shadow-sm"><figcaption><a href="${x.perfil}" target="_blank" class="link-dark fw-bold"><sup>${i+1}</sup> ${x.nombre}</a><br><span>${x.nivel}</span></figcaption></figure></div>`;
                 });
             }
             datos();
